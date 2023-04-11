@@ -1,0 +1,17 @@
+git brach bugFix
+git checkout bugFix
+git commit -m " done"
+git checkout main
+git commit -m "done"
+git merge main
+
+
+// git rebase
+git branch bugFix
+git checkout bugFix
+git commit -m "done"
+git checkout main
+git commit -m "done"
+git checkout bugFix
+git rebase bugFix
+git rebase main
